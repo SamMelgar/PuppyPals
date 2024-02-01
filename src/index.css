@@ -66,3 +66,28 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+ul {
+  list-style: none;
+}
+h2.custom {
+  color: rgb(19, 145, 145);
+}
+
+
+.featured  {
+  /* Styles for the featPured Div container */
+  position: relative; 
+  padding: 10px; /
+  box-shadow: 0 0 0 2px #535bf2 ; /* outline color */
+}
+
+.featured::before {
+  /* Styles for the square shape */
+  content: ''; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px; 
+  height: 20px; 
+  background-color: #3f3f4400; 
+}
